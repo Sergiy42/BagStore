@@ -28,9 +28,8 @@ SQL Server (LocalDB, Express или полноценная версия)
 Visual Studio 2022 или VS Code
 
 -------Запуск--------
-
-Откройте приложение в программе Visual Studio 2022 или VS Code. 
-1. Перейдите в BagStore.Backend, восстановите зависимости: dotnet restore. 
+ 
+1. В BagStore.Backend, восстановите зависимости: dotnet restore. 
 2. Примените миграции базы данных: dotnet ef database update 
-3. Запустите сервер, так как приложение пока тестовое, запустите сервер через Start.bat или командой: dotnet run
-4. Запустите приложение: Перейдите в bagstore-web-client, выполните команду: npm start
+3. Запустите сервер (приложение тестовое), через Start.bat или командой: dotnet run
+4. Запустите приложение: В bagstore-web-client, выполните команду: npm start
